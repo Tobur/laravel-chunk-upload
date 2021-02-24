@@ -89,7 +89,7 @@ class ChunkStorage
             return $this->diskAdapter->getPathPrefix();
         }
 
-        throw new RuntimeException('The full path is not supported on current disk - local adapter supported only');
+        //throw new RuntimeException('The full path is not supported on current disk - local adapter supported only');
     }
 
     /**
